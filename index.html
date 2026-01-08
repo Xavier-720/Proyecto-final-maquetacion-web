@@ -1,70 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Título de la Web -->
     <title>CSS Page</title>
     <!-- Importación de archivo CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- boxicons -->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <!-- remixicon -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!-- Links de fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-
-
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <!-- LOGO -->
-        <a href="#" class="logo">MELON CASH</a>
+      <!-- LOGO -->
+      <a href="#" class="logo">MELON CASH</a>
 
-        <input type="checkbox" name="checkbox" id="menu-toggle">
+      <div class="ri-menu-line" id="menu-icon"></div>
 
-        <label for="menu-toggle" class="menu-icon-action">
-            <div class="ri-menu-line" id="menu-icon"></div></label>
-
-        <ul class="navlist">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+      <ul class="navlist">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </header>
-        <!-- Hero Section -->
+    <!-- Hero Section -->
 
-        <section class="hero">
-            <div class="hero-text">
-                <h5>Tarjeta Virtual</h5>
-                <h4>Banco Virtual Internacional</h4>
-                <h1>Melon Cash</h1>
-                <p>Loguea en nuestra APP para obtener todos los beneficios que tenemos<br>
-                    para vos en toda America Latina y America Central.
-                </p>
-                <a href="#" class="catalogo"><i class="ri-book-ai-fill"></i>Catálogo</a>
-                <a href="#" class="conoce"><i class="ri-add-circle-fill"></i>Conoce más</a>
-            </div>
+    <section class="hero">
+      <div class="hero-text">
+        <h5>Tarjeta Virtual</h5>
+        <h4>Banco Virtual Internacional</h4>
+        <h1>Melon Cash</h1>
+        <p>
+          Loguea en nuestra APP para obtener todos los beneficios que tenemos<br />
+          para vos en toda America Latina y America Central.
+        </p>
+        <a href="#" class="catalogo"><i class="ri-book-ai-fill"></i>Catálogo</a>
+        <a href="#" class="conoce"
+          ><i class="ri-add-circle-fill"></i>Conoce más</a
+        >
+      </div>
 
-            <div class="hero-img">
-                <img src="/assets/imgs/melondef-modified.png" alt="melon logo">
-            </div>
+      <div class="hero-img">
+        <img src="/assets/imgs/melondef-modified.png" alt="melon logo" />
+      </div>
+    </section>
 
-        </section>
+    <div class="icons">
+      <a href="#"><i class="ri-instagram-line"></i></a>
+      <a href="#"><i class="ri-facebook-circle-line"></i></a>
+      <a href="#"><i class="ri-twitter-x-line"></i></a>
+    </div>
 
-        <div class="icons">
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-facebook-circle-line"></i></a>
-            <a href="#"><i class="ri-twitter-x-line"></i></a>
-        </div>
+    <div class="scroll-down">
+      <a href="#"><i class="ri-arrow-down-double-line"></i></a>
+    </div>
 
-        <div class="scroll-down">
-            <a href="#"><i class="ri-arrow-down-double-line"></i></a>
-        </div>
-    
-</body>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
